@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Student Registration Form</h1>
+   <form action="" method="get" autocomplete="">
+    <label for="name">Student Name :   </label>
+    <input type="text" id="name" name="name" placeholder="Enter Name"><br><br>
+
+    <label for="ph">Phone Number :</label>
+    <input type="tel" id="ph" name="ph" placeholder="Enter Phone Number"><br><br>
+
+    <label for="password">Password :</label>
+    <input type="password" name="password" placeholder="Enter Password" minlength="3" maxlength="10"><br><br>
+
+    <label for="age">Age : </label>
+    <input type="number" id="age" name="age" placeholder="Enter Age"><br><br>
+    
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" placeholder="Enter Mail Id"><br><br>
+    
+    <label for="">Subjects :</label><br><br>
+    <label for="html">HTML</label>
+    <input type="checkbox" name="html" id="html" value="html">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="css" id="css" value="css">
+    <label for="javascript">JAVASCRIPT</label>
+    <input type="checkbox" name="javascript" id="javascript" value="javascript"><br><br>
+   
+    <label for="">Select Gender :</label><br><br>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="others">Others</label>
+    <input type="radio" name="gender" id="others" value="others"><br><br>
+   
+    <label for="">Date of Birth</label>
+    <input type="date" name="date" id="date" value="date"><br><br>
+    
+    <label for="">Address</label><br>
+    <textarea name="address" id="address" placeholder="Enter the Address"></textarea><br><br>
+   
+    <label for="course">Select The Course</label>
+    <select name="" id="">
+        <option value="select course">Select course</option>
+    <option value="java">JAVA FULL STACK </option>
+    <option value="python">PYTHON FULL STACK</option>
+    <option value="banking">BANKING</option>
+    </select>
+    <br><br>
+    
+    <label for="salary">Expected Salary</label>
+    <input type="range" name="salary" id="salary" min="25000" max="300000"><br><br>
+    
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    
+   </form>
+    
+</body>
+</html>
